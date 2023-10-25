@@ -10,6 +10,7 @@ namespace WFGit
             random = new Random();
         }
 
+
         private void btnPush_Click(object sender, EventArgs e)
         {
             label1.Text = quotes[random.Next(quotes.Count)];
